@@ -1,0 +1,19 @@
+Section - si el primer elemento hijo es un heading hay que usar un section
+
+
+Selector de todos los hijos 
+
+Aplica la siguiente regla a todos los párrafos hijos
+
+
+http://necolas.github.io/normalize.css/ - enlace de normalize.css
+
+:nth-child - pseudo clase que sirve para cuando hay elementos que tienen que tienen la misma clase y quiero seleccionar una en específico  
+
+ejemplo: 
+
+<div class="campo">
+<div class="campo">
+<div class="campo">
+
+.campo:nth-child(3) me selecciona el tercer campo
